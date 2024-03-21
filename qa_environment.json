@@ -1,0 +1,44 @@
+{
+	"id": "ce39664e-e1f9-4fcc-9075-3adccac6e601",
+	"name": "PCS_Iraq_QA",
+	"values": [
+		{
+			"key": "qaurl",
+			"value": "http://10.0.99.87",
+			"enabled": true
+		},
+		{
+			"key": "tokenURL",
+			"value": "http://10.0.99.87",
+			"enabled": true
+		},
+		{
+			"key": "token2",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "token3",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "token4",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "token_GS",
+			"value": "",
+			"enabled": false
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2022-08-01T08:05:28.460Z",
+	"_postman_exported_using": "Postman/7.36.5"
+}
