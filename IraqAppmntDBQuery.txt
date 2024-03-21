@@ -1,0 +1,12 @@
+select * from dbo.Trucks where TruckNumber = '600' 
+update Trucks set IsActive=1 where id = '9D408D71-702E-4EA7-8342-40A4834D64F2'
+
+select * from dbo.TruckCompany where Name = 'Test Name' 
+update Trucks set IsActive=1 where id = 'BFB99C1B-F9B1-4DF5-9C1D-09BC3DAF31DD'
+
+select * from Appointments where id = '013bcdcf-4c00-4b53-9e19-3d20b40af3cb'
+SELECT * FROM Appointments ORDER BY ReferenceNo DESC;
+
+
+SELECT * FROM Appointments
+ORDER BY ReferenceNo DESC; 

@@ -1,0 +1,9 @@
+1.open gitbash from suite folter
+2.git checkout pcs_iraq(navigate to branch)
+3.git status (see the changes)
+4.git commit /PageObjects/Pcs_Iraq/Locators/Appointment/appointment_listing.yaml -m "locator changes msg"
+5. git push
+
+Push multiple files to git
+5.git commit /PageObjects/Pcs_Iraq/Locators/Appointment/appointment_listing.yaml /PageObjects/Pcs_Iraq/Locators/Appointment/appointment_listing1.yaml 
+/PageObjects/Pcs_Iraq/Locators/Appointment/appointment_listing2.yaml -m "locator changes msg"

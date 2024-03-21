@@ -1,0 +1,47 @@
+CLI API run collection
+1. install NodeJS
+2. install npm install -g newman
+3. cmd newman run C:\Users\mohamed.fatih\Desktop\Project details\PCS-Iraq\API Test results
+4. newman run -h
+
+if environment variable addedd 
+run : cmd newman C:\Users\mohamed.fatih\Desktop\Project details\PCS-Iraq\API Test results -e C:\Users\mohamed.fatih\Desktop\Project details\PCS-Iraq\API Test results\PCS-Iraq.postman_environment(environment path)
+
+if iteration required 
+run : cmd newman run C:\Users\mohamed.fatih\Desktop\Project details\PCS-Iraq\API Test results -e C:\Users\mohamed.fatih\Desktop\Project details\PCS-Iraq\API Test results\PCS-Iraq.postman_environment -n 2
+
+
+Generate html report in postman
+npm install -g newman-reporter-html
+
+newman run "C:\Users\mohamed.fatih\Desktop\Project details\PCS-Iraq\API Test results\PCS-Iraq.postman_collection2" -e "C:\Users\mohamed.fatih\Desktop\Project details\PCS-Iraq\API Test results\PCS-Iraq.postman_environment.json" -r html
+
+
+
+https://www.npmjs.com/package/newman-reporter-htmlextra
+
+Generate html extra report
+npm install -g newman-reporter-htmlextra
+
+newman run "C:\Users\mohamed.fatih\Desktop\Project details\PCS-Iraq\API Test results\PCS-Iraq.postman_collection2" -r htmlextra
+
+
+
+
+
+testuser
+P@ssw0rd
+
+ammpnt details
+truck details
+cargo details
+
+PFI-1532
+PFI-1533
+PFI-1534
+PFI-1535
+PFI-1536
+PFI-1536
+
+
+
